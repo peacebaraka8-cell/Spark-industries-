@@ -1,2 +1,123 @@
 # Spark-industries-
-Official website for Spark Industries furniture business
+Official website for Spark Industries furniture business<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Spark Industries | Quality Furniture</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3efe9;
+    color: #222;
+}
+header {
+    background: #1f1f1f;
+    color: #d4af37;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background: #2a2a2a;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: #f3efe9;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+h1, h2 {
+    color: #1f1f1f;
+}
+.btn {
+    display: inline-block;
+    background: #d4af37;
+    color: #1f1f1f;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+footer {
+    background: #1f1f1f;
+    color: #f3efe9;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Spark Industries</h1>
+    <p>Quality Furniture for Every Home</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Spark Industries</h2>
+    <p>We provide stylish, durable and affordable furniture for homes and offices across Kenya.</p>
+    <a class="btn" href="#products">View Products</a>
+</section>
+
+<section id="products">
+    <h2>Our Furniture</h2>
+    <div class="products">
+        <div class="card">Sofas</div>
+        <div class="card">Beds</div>
+        <div class="card">Tables</div>
+        <div class="card">Chairs</div>
+        <div class="card">Wardrobes</div>
+        <div class="card">Office Furniture</div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Spark Industries was founded to deliver quality furniture that combines comfort, beauty and affordability.
+        We serve homes and businesses with honesty, professionalism and care.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 0111 353 316</p>
+    <p><strong>WhatsApp:</strong> 0794 773 243</p>
+    <p><strong>Email:</strong> sparkfurniture596@gmail.com</p>
+    <p><strong>Location:</strong> Nairobi, Kenya</p>
+    <p><strong>Hours:</strong> Open 24/7</p>
+</section>
+
+<footer>
+    <p>© 2025 Spark Industries. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
